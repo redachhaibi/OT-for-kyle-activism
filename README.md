@@ -8,7 +8,8 @@ The repository is structured as follows. We only describe the most important fil
 ./
 |-- ipynb: Contains Python notebooks which demonstrate how the code works
 |  |-- OT-for-kyle-activism.ipynb: Makes the plots.
-|-- core.py: Main routines, to be imported as external module
+|-- ot_for_kyle_activism:
+   |-- core.py: Main routines, to be imported as external module
 |-- README.md: This file
 |-- 
 ```
@@ -47,6 +48,7 @@ python setup.py develop
 
 6. (Optional) In order to use Jupyter with this virtual environment .venv
 ```bash
+pip install jupyter
 pip install --user ipykernel
 python -m ipykernel install --user --name=.venv_ot_for_kyle
 ```
