@@ -10,8 +10,9 @@ The repository is structured as follows. We only describe the most important fil
 |  |-- OT-for-kyle-activism.ipynb: Makes the plots.
 |-- ot_for_kyle_activism:
    |-- core.py: Main routines, to be imported as external module
+|-- LICENSE  : MIT LICENSE
 |-- README.md: This file
-|-- 
+|-- setup.py : Setup file for install
 ```
 
 ## Installation
